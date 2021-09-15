@@ -7,7 +7,7 @@ if (confirmed)
    if (appversion < 1)
    {
    confirmed2 = window.confirm ("you seem to have an outdated version of this app do you want to install it?")
-    if (appconfirmed2)
+    if (confirmed2)
     {
      window.alert ("the app will redirect you to the download page for this site")
      window.location.replace ("home.html")
