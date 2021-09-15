@@ -10,7 +10,7 @@ if (confirmed)
     if (confirmed2)
     {
      window.alert ("the app will redirect you to the download page for this site")
-     window.location.replace ("home.html")
+     window.location.replace ("https://jasonglenevans.github.io/gvbvdxx-site/downloader-files/home.html")
     }
    }
  }
