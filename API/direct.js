@@ -1,0 +1,4 @@
+{
+  "testAPI":"/apiTEST/",
+  "smmScratchLevels":"/ScratchSMM/"
+}
