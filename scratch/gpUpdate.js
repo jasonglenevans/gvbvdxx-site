@@ -250,7 +250,7 @@ class ScratchGamepad {
     }
     
     rumble({s,w,t,i}) {
-        var gamepad = this.getGamepad(i);
+        var gamepad = this.gamepads[i-1].getGamepad(i-1);
         gamepad.vibrationActuator.playEffect("dual-rumble", {
             startDelay: 0,
             duration: 1000,
