@@ -256,6 +256,12 @@ class ScratchGamepad {
         console.log("w",w);
         console.log("t",t);
         console.log("i",i);
+        this.gamepad.vibrationActuator.playEffect("dual-rumble", {
+          startDelat: 0,
+          duration: (s * 1000),
+          weakMagnitude: (w),
+          strongMagnitude: (t)
+        });
     }
 }
 
